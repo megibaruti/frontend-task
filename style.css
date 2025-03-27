@@ -70,11 +70,11 @@ body {
     justify-content: center;
 }
 
-.step-1 {
+#step1 {
     text-align: center;
 }
 
-.step-1 h1 {
+#step1 h1 {
     text-transform: capitalize;
 }
 
@@ -87,15 +87,20 @@ body {
     color: #c2c2c1;
 }
 
+#time option  {
+    background-color: #4a4a49;
+    color: white;
+}
+
 .note {
     font-size: 12px;
 }
 
-.step-2 {
+#step2 {
     text-align: center;
 }
 
-.step-2 h1 {
+#step2 h1 {
     text-transform: capitalize;
 }
 
@@ -126,4 +131,12 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
 }
